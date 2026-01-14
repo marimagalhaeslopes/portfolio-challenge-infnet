@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Michroma&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #EDE0D4 50%, #414833);
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: -1px;
+    justify-self: center;
+    background-color: #414833;
+    border-radius: 0 0 12px 12px;
+
+}
+
+nav a:hover {
+
+    padding: 5px 10px;
+    font-style: italic;
+    border-radius: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Quicksand", sans-serif;
+}
+
+section {
+    height: 100vh;
+    padding: 15px 0;
+    justify-items: center;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: inline-grid;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+}
+
+#Start {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+#Start h1 {
+    font-family: "Aldrich", sans-serif;
+}
+
+#Start img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+#Start img:hover {
+    box-shadow: 0 0 10px 5px #7F5539;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Michroma", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    height: 50px;
+    padding-top: 16px;
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    text-align: justify;
+    background-color: #7f553921;
+    border-radius: 23px;
+    padding: 8px 7.5px;
+}
+
+li:hover {
+    text-align: justify;
+    background-color: #7f5539de;
+    border-radius: 23px;
+}
+
+p,
+h3,
+li,
+button,
+a,
+footer {
+    font-family: "Quicksand", sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 14px
+}
+
+.sobre {
+    display: flex;
+    padding: 0 135px;
+    gap: 195px;
+}
+
+#SobreMim img {
+    height: 450px;
+    width: auto;
+}
+
+.about p {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.about button,
+button:active,
+#Projetos button {
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    background-color: #573a27;
+}
+
+.about button:hover,
+#Projetos button {
+    background-color: #A68A64;
+}
+
+.about a,
+#Projetos a {
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.about button:active,
+#Projetos button {
+    border-bottom: groove;
+}
+
+#Conhecimentos ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    ;
+    padding: 15px 0 0 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+#Conhecimentos ul li {
+    height: 100px;
+    text-align: center;
+    background-color: #7f553921;
+    border-radius: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.calendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#HistoricoAcademico img {
+    display: flex;
+    justify-self: center;
+    width: 17%;
+    height: auto;
+    padding-top: 12px;
+}
+
+#Projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Projetos img {
+    width: 50%;
+}
+
+#Projetos button {
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    background-color: #573a27;
+}
+
+footer {
+    position: absolute;
+    bottom: auto;
+    justify-self: center;
+}
